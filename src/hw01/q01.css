@@ -5,6 +5,7 @@
   color: white;
   text-align: center;
   order: 9;
+  
 }
 
 .container-2 {
@@ -80,4 +81,10 @@
 }
 
 .parent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+.parent > div {
+  margin: 10px;
 }
